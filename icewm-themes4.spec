@@ -1,5 +1,5 @@
-Summary:	Pack of themes for icewm
-Summary(pl):	Zestaw tematów dla icewm
+Summary:	Pack of themes for IceWM
+Summary(pl):	Zestaw tematów dla IceWM
 Name:		icewm-themes-pack4
 Version:	1.0
 Release:	3
@@ -15,7 +15,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %define		_themesdir	/usr/X11R6/lib/X11/icewm/themes
 
 %description
-This is a set of 8 themes for icewm.
+This is a set of 8 themes for IceWM.
 blue metal				Sawsedge <sawsedge@yahoo.com>
 BlueSteel				Bas Leerintveld
 CubeX					<dwl@wolsi.com>
@@ -26,7 +26,7 @@ Phaaba					Micha³ Szota <michal@k.pl>
 YAK - Yet Another KDE 2.x clone		Sawsedge <sawsedge@yahoo.com>
 
 %description -l pl
-Jest to zestaw 8 tematów do uprzyjemnienia wygl±du twojego icewm'a.
+Jest to zestaw 8 tematów do uprzyjemnienia wygl±du twojego IceWMa.
 blue metal				Sawsedge <sawsedge@yahoo.com>
 BlueSteel				Bas Leerintveld
 CubeX					<dwl@wolsi.com>
