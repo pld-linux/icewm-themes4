@@ -1,13 +1,14 @@
 Summary:	Pack of themes for IceWM
 Summary(pl):	Zestaw motywów dla IceWM-a
-Name:		icewm-themes-pack4
+Name:		icewm-themes4
 Version:	1.0
-Release:	4
+Release:	1
 License:	GPL (?)
 Group:		Themes
-Source0:	%{name}.tar.gz
+Source0:	http://ep09.pld-linux.org/~havner/%{name}.tar.gz
 # Source0-md5:	1042ab20309f84929bef6d0de5ea2600
 Requires:	icewm
+Obsoletes:	icewm-themes-pack4
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
