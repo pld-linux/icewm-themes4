@@ -4,6 +4,7 @@ Name:		icewm-themes-pack4
 Version:	1.0
 Release:	1
 License:	GPL (?)
+BuildArch:      noarch
 Group:		Themes
 Group(de):	Themen
 Group(pl):	Motywy
