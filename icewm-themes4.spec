@@ -2,7 +2,7 @@ Summary:	Pack of themes for IceWM
 Summary(pl):	Zestaw motywów dla IceWM-a
 Name:		icewm-themes-pack4
 Version:	1.0
-Release:	3
+Release:	4
 License:	GPL (?)
 Group:		Themes
 Source0:	%{name}.tar.gz
@@ -11,7 +11,7 @@ Requires:	icewm
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-%define		_themesdir	/usr/X11R6/lib/X11/icewm/themes
+%define		_themesdir	/usr/share/icewm/themes
 
 %description
 This is a set of 8 themes for IceWM.
