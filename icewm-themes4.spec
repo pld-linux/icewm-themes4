@@ -5,8 +5,6 @@ Version:	1.0
 Release:	3
 License:	GPL (?)
 Group:		Themes
-Group(de):	Themen
-Group(pl):	Motywy
 Source0:	%{name}.tar.gz
 Requires:	icewm
 BuildArch:	noarch
