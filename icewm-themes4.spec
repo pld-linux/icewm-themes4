@@ -1,5 +1,5 @@
 Summary:	Pack of themes for IceWM
-Summary(pl):	Zestaw tematów dla IceWM-a
+Summary(pl):	Zestaw motywów dla IceWM-a
 Name:		icewm-themes-pack4
 Version:	1.0
 Release:	3
@@ -24,7 +24,7 @@ Phaaba					Micha³ Szota <michal@k.pl>
 YAK - Yet Another KDE 2.x clone		Sawsedge <sawsedge@yahoo.com>
 
 %description -l pl
-Jest to zestaw 8 tematów do uprzyjemnienia wygl±du twojego IceWM-a.
+Jest to zestaw 8 motywów do uprzyjemnienia wygl±du twojego IceWM-a.
 blue metal				Sawsedge <sawsedge@yahoo.com>
 BlueSteel				Bas Leerintveld
 CubeX					<dwl@wolsi.com>
