@@ -2,21 +2,19 @@ Summary:	Pack of themes for icewm
 Summary(pl):	Zestaw tematów dla icewm
 Name:		icewm-themes-pack4
 Version:	1.0
-Release:	1
+Release:	3
 License:	GPL (?)
-BuildArch:      noarch
 Group:		Themes
 Group(de):	Themen
 Group(pl):	Motywy
 Source0:	%{name}.tar.gz
-
 Requires:	icewm
-Buildroot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
+BuildArch:	noarch
+BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-%define		_prefix		/usr/X11R6
-%define		_themesdir	%{_prefix}/lib/X11/icewm/themes
+%define		_themesdir	/usr/X11R6/lib/X11/icewm/themes
 
-%description 
+%description
 This is a set of 8 themes for icewm.
 blue metal				Sawsedge <sawsedge@yahoo.com>
 BlueSteel				Bas Leerintveld
@@ -40,17 +38,18 @@ YAK - Yet Another KDE 2.x clone		Sawsedge <sawsedge@yahoo.com>
 
 %prep
 %setup -q -n %{name}
+
 %build
 
 %install
-rm -rf $RPM_BUILD_ROOT
-install -d $RPM_BUILD_ROOT%{_themesdir}
-cp -R * $RPM_BUILD_ROOT%{_themesdir}
+%{__rm} -rf $RPM_BUILD_ROOT
+%{__install} -d $RPM_BUILD_ROOT%{_themesdir}
+
+%{__cp} -R * $RPM_BUILD_ROOT%{_themesdir}
 
 %clean
-rm -rf $RPM_BUILD_ROOT
+%{__rm} -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%dir %{_themesdir}
 %{_themesdir}/*
