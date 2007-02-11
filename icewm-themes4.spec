@@ -1,5 +1,5 @@
 Summary:	Pack of themes for IceWM
-Summary(pl):	Zestaw motywÛw dla IceWM-a
+Summary(pl.UTF-8):   Zestaw motyw√≥w dla IceWM-a
 Name:		icewm-themes4
 Version:	1.0
 Release:	2
@@ -22,18 +22,18 @@ CubeX					<dwl@wolsi.com>
 Fire95					<dwl@wolsi.com>
 greenflat				slow
 mcalamari				slow
-Phaaba					Micha≥ Szota <michal@k.pl>
+Phaaba					Micha≈Ç Szota <michal@k.pl>
 YAK - Yet Another KDE 2.x clone		Sawsedge <sawsedge@yahoo.com>
 
-%description -l pl
-Jest to zestaw 8 motywÛw do uprzyjemnienia wygl±du twojego IceWM-a.
+%description -l pl.UTF-8
+Jest to zestaw 8 motyw√≥w do uprzyjemnienia wyglƒÖdu twojego IceWM-a.
 blue metal				Sawsedge <sawsedge@yahoo.com>
 BlueSteel				Bas Leerintveld
 CubeX					<dwl@wolsi.com>
 Fire95					<dwl@wolsi.com>
 greenflat				slow
 mcalamari				slow
-Phaaba					Micha≥ Szota <michal@k.pl>
+Phaaba					Micha≈Ç Szota <michal@k.pl>
 YAK - Yet Another KDE 2.x clone		Sawsedge <sawsedge@yahoo.com>
 
 %prep
