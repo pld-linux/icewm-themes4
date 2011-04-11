@@ -2,7 +2,7 @@ Summary:	Pack of themes for IceWM
 Summary(pl.UTF-8):	Zestaw motywów dla IceWM-a
 Name:		icewm-themes4
 Version:	1.0
-Release:	2
+Release:	3
 License:	GPL (?)
 Group:		Themes
 Source0:	http://ep09.pld-linux.org/~havner/%{name}.tar.bz2
